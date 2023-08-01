@@ -1,0 +1,31 @@
+.app__about {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .app__profile-item {
+    .bold-text {
+      font-size: 2em;
+      color: #333;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .p-text {
+      font-size: 1.2em;
+      color: #666;
+      line-height: 1.6em;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  
+  
+    @media screen and (min-width: 2000px) {
+      width: 370px;
+      margin: 2rem 4rem;
+  
+      img {
+        height: 320px;
+      }
+    }
+  }
