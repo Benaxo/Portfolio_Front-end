@@ -6,7 +6,7 @@ import './About.scss';
 const About = () => {
   return (
     <>
-      <h2 className="head-text">Je suis un <span>passionné de création</span> et possède une<br /><span> grande </span>soif d'apprentissage</h2>
+      <h2 className="head-text"><span>Créateur</span> dans l'âme, je<span> façonne</span> le web avec une <span>passion</span> insatiable</h2>
       <br/>
       <motion.div
         whileInView={{ opacity: 1 }}
@@ -14,13 +14,13 @@ const About = () => {
         className="app__profile-item"
         style={{ maxWidth: "60%", margin: "auto" }} 
       >
-        <h2 className="bold-text" style={{ marginTop: 20 }}>À propos de moi</h2>
+        <h2 className="bold-text" style={{ marginTop: 20 }}>Un peu plus sur moi</h2>
         <motion.p
           className="p-text"
           style={{ marginTop: 10 }}
           transition={{ duration: 0.5, delay: 0.5, type: 'tween' }}
         >
-          Actuellement étudiant en Bachelor Concepteur de Solutions Digitales à l'école IRIS Informatique, je me passionne pour le vaste univers des technologies et consacre une grande partie de mon temps à l'exploration constante des innovations dans ce domaine. Fort de cette aspiration à approfondir sans cesse mes connaissances et à élargir le spectre de mes compétences, je suis en quête d'une alternance pour la prochaine rentrée. Mes centres d'intérêt sont vastes et couvrent le développement web, l'intelligence artificielle, le Big Data, entre autres.
+          Évoluant dans l'univers du MBA expert en système informatique, je ne suis pas simplement un développeur Full Stack. Chaque ligne de code que j'écris raconte une histoire, chaque projet est une aventure. Avec une prédilection pour React, Node.js, et Symfony, j'ai également navigué dans le monde mobile avec Kotlin et conçu des pépites en Next.js. Aujourd'hui, je cherche à repousser mes limites en intégrant une alternance où innovation et ambition se rencontrent.
         </motion.p>
       </motion.div>
     </>
